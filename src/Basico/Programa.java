@@ -9,6 +9,8 @@ public class Programa {
 		int Peso = 0;
 		double Altura = 0;
 		
+		System.out.println("OLÁ, BUENAS TARDES");
+		
 		System.out.println("Qual o seu peso?");
 		Peso = sc.nextInt();
 		
@@ -17,6 +19,7 @@ public class Programa {
 		
 		double IMC;
 		IMC = (Peso / (Altura*Altura));
+		
 		
 		System.out.println(IMC);
 		
@@ -33,6 +36,7 @@ public class Programa {
 		}else if(IMC >= 40) {
 			System.out.println("Obesidade grau III (mórbida)");
 		}
+		
 		
 		sc.close();
 	}
